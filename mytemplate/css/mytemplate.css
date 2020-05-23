@@ -1,0 +1,327 @@
+/* font-family: 'Lobster', cursive; */
+
+*
+{
+    box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+.cust-nav
+{
+     font-family: 'Lobster', cursive;
+     font-size: 20px;
+}
+
+.cust-header-info
+{
+    position: relative;
+    left: 10px;
+    right: 50px;
+    top:90px;
+    bottom:50px;
+   
+
+
+}
+
+
+.cust-header-info h3,h1
+{
+    font-family: 'Lobster', cursive;
+}
+
+.cust-header-img
+{
+    position: relative;  
+    top:80px;
+    padding-top: 50px;
+
+}
+
+.cust-row
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+ 
+
+}
+
+.cust-introduce-row
+{
+    position: relative;
+    top:100px;
+    margin-bottom:190px;
+}
+
+.cust-introduce-info
+{
+    position: relative;
+    top:-10px;
+    top:120px; 
+   
+    text-align: justify;  
+}
+.cust-row-skill
+{
+    position: relative;
+
+}
+.cust-introduce-image
+{
+    margin-bottom: 100px;
+}
+.cust-col-skill-left
+{
+    
+    position: relative;
+    left: 20px;
+    top:120px;  
+}
+
+.rounded-lg
+{
+    height: 100px;
+    width: 100px;
+}
+
+
+.cust-service-row
+{
+    margin-top: 20px;
+
+}
+.cust-footer
+{
+    margin-top: 50px;
+}
+
+.cust-service-container
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+
+.cust-GetInTouch-Container
+{
+
+    position: relative;
+    top:150px;
+    
+}
+.cust-GetInTouch-form
+{
+    position: relative;
+    top:50px;
+}
+
+.line-after::after
+{
+    content:"";
+    height: 2px;
+    width:10vw;
+    background:black;
+    display: inline-block;
+    margin-left:2%;
+    transform: translateY(-6px);
+}
+
+.line-before::before
+{
+    content:"";
+    height: 2px;
+    width:8vw;
+    background:black;
+    display: inline-block;
+    margin-right:4%;
+    transform: translateY(-6px);
+}
+
+
+.footer-icon
+{
+    text-decoration: none;
+    list-style: none;
+}
+.cust-footer
+{
+    margin-bottom: 00px;
+    margin-top: 300px;
+}
+
+
+
+
+@media screen and (max-width: 576px) 
+{
+
+    .cust-row
+    {
+        height: auto;
+        width: Auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px;
+        position: relative;
+        top:20px;
+        bottom:00px;
+        right: 00px;
+        left:00px;
+     
+    
+    }
+    .cust-my-name
+    {
+        font-size: 25px;
+    }
+
+    .cust-footer
+{
+    margin-top: 100px;
+}
+    .cust-header-info
+    {
+        position: relative;
+        left: 00px;
+        right: 00px;
+        top:00px;
+        bottom:00px;
+    }
+
+    
+.cust-introduce-row
+{
+    position: relative;
+    top:100px;
+    margin-bottom:190px;
+    width:90%;
+    left: 00px;
+}
+
+.cust-inroduction-heading
+{
+    font-size:22px;
+    align-items:center;
+    position: relative;
+    text-align: center;
+   
+}
+
+.cust-header-size
+{
+    width:80%;
+}
+.cust-myskill-heding
+{
+    font-size:25px;
+    text-align:center;
+    position: relative;
+    top: 00px;
+    bottom:00px;
+    right: 00px;
+    left: 00px;
+}
+.cust-col-skill-left
+{
+    width:10%;
+    margin-bottom:150px;
+
+}
+
+
+.cust-header-img
+{
+    position: relative;  
+    top:10px;
+    left: 00px;
+}
+.cust-introduce-row
+{
+    position: relative;
+    top:00px;
+    right: 00px;
+    left: 00px;
+    margin-bottom:00px;
+    width:90%;
+}
+
+.cust-introduce-image
+{
+   position: relative;
+   top:00px;bottom:00px;
+   left: 00px;
+   right: 00px;
+}
+
+.cust-introduce-info
+{
+    position: relative;
+    top:00px;
+    bottom:00px;
+    left: 20px;
+    right: 00px ;
+    text-align: justify;  
+}
+.cust-row-skill
+{
+    position: relative;
+    width:95%;
+    top:00px;
+}
+.cust-col-skill-left
+{
+    position: relative;
+    top:20px;
+    bottom:00px;
+    right: 00px;
+    left: 10px;
+    margin-bottom:50px;
+}
+
+.cust-service-row
+{
+    width:100%;
+    
+
+}
+.cust-ourServiceHeading
+{
+    font-size:25px;
+    text-align:center;
+    position: relative;
+    top:00px;
+    left: 00px;
+
+}
+.cust-service-container
+{
+    
+   position: relative;
+   top:-90px;
+   width:100%;
+
+}
+.cust-get-in-touch-heading
+{
+    font-size:25px;
+   
+    position: relative;
+    right: 00px;
+    left: -20px;
+    bottom:000px;
+    top: 00px;
+}
+.cust-get-in-touch-row
+{
+    width:90%;
+}
+.cust-footer-row
+{
+    width:90%;
+}
+}
